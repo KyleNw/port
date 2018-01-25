@@ -16,7 +16,6 @@ body{
     
 }
 
-
 #logo{
     padding-left: 100px;
 }
@@ -164,22 +163,23 @@ h3{
 }
 
 @media screen and (max-width: 643px) {
-    .pls2{
-        margin-left:0%;
-    }
-    
     #bioP{
         text-align:center;
-       
+        margin-left:-25%;
     }
     .bi{
-        width:265px;
-        margin-left:-53%;
+        width:180px;
+    }
+    small{
+        margin:0%;
+        padding:0%;
     }
     .smallish{
         font-size: 32px;
     }
-    
+    .con1{
+        font-size:50px;
+    }
     .aboutMe{
         display: none;
     }
@@ -203,7 +203,7 @@ h3{
         text-align:center;
     }
     #lead{
-        margin-left: -32% ;
+        margin-left: -32%;
         text-align:center;
     }
     #leader{
@@ -376,13 +376,14 @@ img{
 }
 
 #work2{
-    margin-left: 27%;
-    text-align:center;
+    margin-left: 26%;
 }
 #logo{
     padding-left: 0%;
 }
-
+.studyInfo{
+    margin-left: 2%;
+}
 #study{
     margin-top: -10%;
 }
@@ -429,9 +430,11 @@ p{
     padding-top: 7%;
 }
 
-.studyInfo{
-    text-align: center;
-    margin-left: -11%;
+.studyInfo {
+    /* text-align: center; */
+    margin-left: 25%;
+    /* width: 100%; */
+    width: 300px;
 }
 .studyInfo2{
     text-align: center;
@@ -450,7 +453,7 @@ h2{
     margin-right: 40%;
 }
 #restaurant{
-    width: 100%;
+    width: 70%;
     margin-left: 17%;
     margin-top: -3%;
 }
@@ -460,15 +463,16 @@ h2{
 
 @media screen and (max-width: 643px) {
     #jale{
-    margin-left: 2%;
-    text-align:center;
+        margin-left: 2%;
+        text-align:center;
+    }
+    #restaurant {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -3%;
+        text-align: center;
+    }
 }
-#restaurant{
-    margin-top: -3%;
-    text-align: center;
-    margin:0%;
-}
-
 /* study over*/
 
 
@@ -531,16 +535,9 @@ small{
 }
 
 @media screen and (max-width: 642px) {
-    .move {
-    margin-top: -2%;
-    margin-left: -15%;
-}
-
+  
 #logo{
     padding-left: 0%;
-}
-.btnBoxSkill{
-    display:none;
 }
 
 }
@@ -548,14 +545,7 @@ small{
 @media screen and (max-width: 768px) {
     .move{
         text-align:center;
-        margin-left:2%;
-    }
-    small{
-        margin:0%;
-        padding:0%;
-    }
-    #small1{
-        margin:0%;
+        margin-left:-64%;
     }
     #shit{
         margin-left: 7%;
@@ -577,9 +567,6 @@ small{
     }
     #webby{
         margin:0%;
-    }
-    .btnBoxSkill{
-        display:none;
     }
 
 }
