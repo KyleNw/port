@@ -161,6 +161,9 @@ h3{
 #bioP{
     margin-left: 9%;
 }
+#production{
+    margin-left:4%;
+}
 
 @media screen and (max-width: 643px) {
     #bioP{
@@ -206,7 +209,7 @@ h3{
         margin-left: -32%;
         text-align:center;
     }
-    #leader{
+    #production{
         text-align:center;
         margin-left:-32%;
     }
