@@ -14,6 +14,7 @@ $(document).ready(function() {
        $('#workHistory').hide();
        $('#educationPage').hide();
        $('#bioPage').hide();
+       $(".side-nav").animate({translateX: "0%"});
        
 
        $('.home').click(function(){
@@ -26,6 +27,7 @@ $(document).ready(function() {
             $('#workHistory').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
        });
        
        $('.goSkillz').click(function(){
@@ -38,6 +40,7 @@ $(document).ready(function() {
             $('#educationPage').hide();
             $('#bioPage').hide();
             getGraph();
+            $(".side-nav").animate({translateX: "0%"});
        });
        
        $('.goHistory').click(function(){
@@ -49,6 +52,7 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
        });
 
        $('.goEdo').click(function(){
@@ -60,6 +64,7 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#workHistory').hide();
             $('#bioPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
             
        });
 
@@ -72,6 +77,7 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#workHistory').hide();
             $('#educationPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
             
             
        });
@@ -85,6 +91,7 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
            
        });
 
@@ -97,6 +104,7 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
            $('#bioPage').hide();
+           $(".side-nav").animate({translateX: "0%"});
        });
        $('#goStudy').click(function(){
             $('#study').fadeIn(1000);
@@ -107,6 +115,7 @@ $(document).ready(function() {
             $('#workHistory').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
+            $(".side-nav").animate({translateX: "0%"});
        })
       
 
