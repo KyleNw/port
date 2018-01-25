@@ -146,6 +146,9 @@ $(document).ready(function() {
  span.onclick = function() { 
      modal.style.display = 'none';
  }
+
+
+
  
  // d3 famo
  
@@ -199,3 +202,6 @@ $(document).ready(function() {
  
  
  };
+
+ 
+

@@ -300,6 +300,12 @@ h3{
     
     
 }
+.studyInfo {
+    /* text-align: center; */
+    margin-left: 25%;
+    /* width: 100%; */
+    width: 300px;
+}
 
 /*d3 graph*/
 .horizontal-bar-graph {
@@ -381,8 +387,12 @@ img{
 #logo{
     padding-left: 0%;
 }
+#my-graph{
+    margin-left:5%;
+}
 .studyInfo{
-    margin-left: 2%;
+   width:240px;
+   margin-left:-18%;
 }
 #study{
     margin-top: -10%;
@@ -430,12 +440,7 @@ p{
     padding-top: 7%;
 }
 
-.studyInfo {
-    /* text-align: center; */
-    margin-left: 25%;
-    /* width: 100%; */
-    width: 300px;
-}
+
 .studyInfo2{
     text-align: center;
     margin-left: -2%;
