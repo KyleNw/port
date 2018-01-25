@@ -16,6 +16,7 @@ body{
     
 }
 
+
 #logo{
     padding-left: 100px;
 }
@@ -163,6 +164,10 @@ h3{
 }
 
 @media screen and (max-width: 643px) {
+    .pls2{
+        margin-left:0%;
+    }
+    
     #bioP{
         text-align:center;
        
@@ -198,8 +203,12 @@ h3{
         text-align:center;
     }
     #lead{
-        margin-left: -32%;
+        margin-left: -32% ;
         text-align:center;
+    }
+    #leader{
+        text-align:center;
+        margin-left:-32%;
     }
     #download{
         margin-left:0%;
@@ -367,14 +376,13 @@ img{
 }
 
 #work2{
-    margin-left: 36%;
+    margin-left: 27%;
+    text-align:center;
 }
 #logo{
     padding-left: 0%;
 }
-.studyInfo{
-    margin-left: 2%;
-}
+
 #study{
     margin-top: -10%;
 }
@@ -442,7 +450,7 @@ h2{
     margin-right: 40%;
 }
 #restaurant{
-    width: 70%;
+    width: 100%;
     margin-left: 17%;
     margin-top: -3%;
 }
@@ -452,9 +460,15 @@ h2{
 
 @media screen and (max-width: 643px) {
     #jale{
-    margin-left: 14%;
+    margin-left: 2%;
+    text-align:center;
 }
+#restaurant{
+    margin-top: -3%;
+    text-align: center;
+    margin:0%;
 }
+
 /* study over*/
 
 
@@ -530,14 +544,22 @@ small{
 
 @media screen and (max-width: 768px) {
     .move{
-        margin-top: -2%;
-        margin-left: -13%;
+        text-align:center;
+        margin-left:2%;
+    }
+    small{
+        margin:0%;
+        padding:0%;
+    }
+    #small1{
+        margin:0%;
     }
     #shit{
-        margin-left: 30%;
+        margin-left: 7%;
+        text-align:center;
     }
     #p2{
-        margin-left: 12%;
+        margin-left: -2%;
     }
     #btnBox{
         display:none;
