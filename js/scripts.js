@@ -14,7 +14,6 @@ $(document).ready(function() {
        $('#workHistory').hide();
        $('#educationPage').hide();
        $('#bioPage').hide();
-       $(".side-nav").animate({translateX: "0%"});
        
 
        $('.home').click(function(){
@@ -27,7 +26,6 @@ $(document).ready(function() {
             $('#workHistory').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
        });
        
        $('.goSkillz').click(function(){
@@ -40,7 +38,6 @@ $(document).ready(function() {
             $('#educationPage').hide();
             $('#bioPage').hide();
             getGraph();
-            $(".side-nav").animate({translateX: "0%"});
        });
        
        $('.goHistory').click(function(){
@@ -52,7 +49,6 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
        });
 
        $('.goEdo').click(function(){
@@ -64,7 +60,6 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#workHistory').hide();
             $('#bioPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
             
        });
 
@@ -77,7 +72,6 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#workHistory').hide();
             $('#educationPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
             
             
        });
@@ -91,7 +85,6 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
            
        });
 
@@ -104,7 +97,6 @@ $(document).ready(function() {
             $('#skillz').hide();
             $('#educationPage').hide();
            $('#bioPage').hide();
-           $(".side-nav").animate({translateX: "0%"});
        });
        $('#goStudy').click(function(){
             $('#study').fadeIn(1000);
@@ -115,7 +107,6 @@ $(document).ready(function() {
             $('#workHistory').hide();
             $('#educationPage').hide();
             $('#bioPage').hide();
-            $(".side-nav").animate({translateX: "0%"});
        })
       
 
@@ -198,9 +189,9 @@ $(document).ready(function() {
    {label: 'Word Press',  inner_label: 'Pro',   value: 90,  color: '#e17a69' },
    {label: 'Photoshop', inner_label: 'Pro', value: 90, color: '#6ea6df' },
    {label: 'Illustrator',  inner_label: 'Pro',   value: 90,  color: '#84c26d' },
-   {label: 'Jquery',  inner_label: 'Pretty Okay',   value: 80,  color: '#e17a69' },
-   {label: 'Javascript',  inner_label: 'Pretty Okay',   value: 80,  color: '#6ea6df' },
-   {label: 'Php',  inner_label: 'Pretty Okay',   value: 80,  color: '#84c26d' }
+   {label: 'Jquery',  inner_label: 'Pretty Good',   value: 80,  color: '#e17a69' },
+   {label: 'Javascript',  inner_label: 'Pretty Good',   value: 80,  color: '#6ea6df' },
+   {label: 'Php',  inner_label: 'Pretty Good',   value: 80,  color: '#84c26d' }
   
    
  ]);
