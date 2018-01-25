@@ -1,0 +1,736 @@
+body html{
+    height: 100%;
+}
+body{
+    /*background-color:#eceff1;*/
+    /*filter: blur(2px);*/
+    font-family: 'Roboto Slab', serif;
+    background-image: url("../images/comp4.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 140%;
+    z-index: -1;
+    
+}
+
+#logo{
+    padding-left: 100px;
+}
+#navRight{
+    padding-right: 100px;
+}
+#page1Btn{
+    background-color: none;
+}
+
+#text{
+    background-color: white;
+    opacity: .2;
+    width: 450px;
+    height: 350px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+/*#homeImg{
+    margin-top: -45%;
+}*/
+h1{
+    text-align: center;
+}
+#work{
+    margin-left: 42.7%;
+    margin-right: 42%;
+}
+
+
+/*home page*/
+
+#bio{
+    width: 50%;
+    margin-left: 26%;
+    font-weight: 600;
+    
+}
+.aboutMe{
+    display: inline;
+    margin-left: 5%;
+    /*border: 2px solid black;*/
+    background-color:#ec407a;
+    color: white;
+}
+.aboutMe:hover{
+    /*-webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+     transition: background-color 400ms linear;*/
+     color: white;
+     border: 2px solid white;
+    background-color: #d81b60
+    
+    
+    
+}
+#btnBox{
+    margin-left: 8%;
+    padding-top: 5%;
+}
+#page1{
+    width: 80%;
+    z-index: 900;
+    background-color: white;
+    margin-left: 10%;
+    height: 0%;
+    margin-top: 8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#webby{
+    margin-left: 13%;
+}
+#download{
+    background-color:#ec407a;
+    color: white;
+    margin-top: 5%;
+    margin-left: 34%;
+}
+#download:hover{
+    /*background-color: white;
+    color: black;
+    border: 2px solid black;*/
+    background-color: #d81b60
+}
+.inUse{
+    background-color: #ec407a
+}
+
+
+.ed2{
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+
+.ed3{
+    padding-top: .5%;
+    margin-left: 14%;
+}
+h6{
+    font-size: 18px;
+    padding-left: 34%;
+    /*padding-bottom: 10%;*/
+    margin-top: -2%;
+    color: #ec407a
+}
+
+#reggy{
+    margin-left: 34%;
+    padding-top: 2%;
+}
+#lead{
+    padding-bottom: 2%;
+    margin-left: 10%;
+}
+
+#general{
+    margin-left: -2.5%;
+}
+.edu{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: -1%;
+}
+#homeText{
+    padding-top: 5%;
+}
+.homeHr{
+   border: none;
+   background-color: black;
+    height: 2px;
+}
+h5{
+    margin-left: 24.6%;
+}
+h3{
+    text-align: center;
+}
+#bioP{
+    margin-left: 9%;
+}
+
+@media screen and (max-width: 643px) {
+    .aboutMe{
+        display: none;
+    }
+    .ed2{
+        margin-left: -10%;
+        padding-top: 2%;
+    }
+    .ed3{
+        margin-left: 0%;
+    }
+    #reggy{
+        margin-left: 22%;
+    }
+    #lead{
+        margin-left: 5%;
+    }
+    #download{
+        margin-left: 25.5%;
+    }
+   #spanner{
+       margin-left: 12%;
+   }
+   #general{
+       margin-left: 0%;
+   }
+   #gen2{
+        margin-left: 5%;
+   }
+   #webby{
+       margin-left: 18%;
+   }
+   
+}
+
+
+/*end home*/
+
+/*Work History*/
+#workHistory{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+
+}
+/*End work history*/
+
+/*education page*/
+#educationPage{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+
+/*end education*/
+
+/*Bio page*/
+#bioPage{
+     background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+
+/*end bio page*/
+
+/*skills page*/
+#skillz{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+.btnBoxSkill{
+    padding-top: 5%;
+    margin-left: 9%;
+}
+
+#arrowLeft{
+    
+    
+    display: inline;
+   
+}
+#arrowRight{
+    float:right;
+    
+    
+}
+
+/*d3 graph*/
+.horizontal-bar-graph {
+  display: table;
+  width: 80%;
+}
+
+.horizontal-bar-graph-segment {
+  display: table-row;
+}
+
+.horizontal-bar-graph-label {
+  display: table-cell;
+  border-right: 1px solid silver; 
+  text-align: right;
+  padding: 4px 10px 4px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.horizontal-bar-graph-value {
+  display: table-cell;
+  padding: 3px 0;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.horizontal-bar-graph-value-bar {
+  background: silver;
+  
+  padding: 4px 4px 3px;
+  height: 2em;
+  text-align: right;
+  color: white;
+  overflow: visible;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#my-graph{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+/*end Skillz*/
+
+/*portfolio*/
+
+img{
+    border-radius: 5px;
+}
+#page2{
+    margin-top: -2.4%;
+    padding-bottom: 50px;
+    width: 80%;
+    margin-left:10%;
+    background-color: white;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.description{
+    margin-top: -8%;
+}
+#work2{
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 643px) {
+#page2{
+    margin-top: -4.8%;
+}
+
+#work2{
+    margin-left: 36%;
+}
+#logo{
+    padding-left: 0%;
+}
+.studyInfo{
+    margin-left: 2%;
+}
+#study{
+    margin-top: -10%;
+}
+#page3{
+    height: 100%;
+}
+
+
+
+}
+
+/*end portfolio*/
+#lower{
+    padding-top: 5.1%;
+}
+
+p{
+    padding-bottom: 5%;
+    
+}
+.btnYou{
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    /*border: white 2px solid;*/
+    
+}
+
+/*Study page*/
+#study{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    margin-top: -2%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#workCase{
+    padding-top: 7%;
+}
+
+.studyInfo{
+    text-align: center;
+    margin-left: -11%;
+}
+.studyInfo2{
+    text-align: center;
+    margin-left: -2%;
+}
+#titleStudy{
+    padding-bottom: 2%;
+}
+h2{
+    text-align: center;
+}
+
+#studyhr{
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#restaurant{
+    width: 70%;
+    margin-left: 17%;
+    margin-top: -3%;
+}
+#jale{
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 643px) {
+    #jale{
+    margin-left: 14%;
+}
+}
+/* study over*/
+
+
+.smaller{
+    width: 100%;
+}
+.check{
+    margin-left: 5%;
+}
+
+.check{
+    margin-left: 5%;
+}
+img{
+    padding-bottom: 2%;
+    padding-right: 2%; 
+    padding-right: 2%;
+    border-radius: 5px;
+}
+hr{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/*Contact page*/ 
+
+#page3{
+    padding-bottom: 50px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#small1{
+    margin-left: 41%;
+}
+small{
+    margin-left: 38.5%;
+    padding-bottom: 5%;
+}
+#shit{
+   margin-left: 39%;
+   margin-top: 5%;
+}
+#form{
+    margin-top: -3%;
+}
+#p2{
+    margin-top: -5%;
+    margin-left: 8.5%;
+}
+#p3{
+    margin-top: -5%;
+    margin-left: -3.5%;
+}
+.move{
+    margin-top: -2%;
+}
+
+@media screen and (max-width: 642px) {
+    .move {
+    margin-top: -2%;
+    margin-left: -15%;
+}
+
+#logo{
+    padding-left: 0%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .move{
+        margin-top: -2%;
+        margin-left: -13%;
+    }
+    #shit{
+        margin-left: 30%;
+    }
+    #p2{
+        margin-left: 12%;
+    }
+    #btnBox{
+        display:none;
+    }
+
+}
+
+@media screen and (max-width: 1348px) {
+    #btnBox{
+        display:none;
+    }
+    .btnBoxSkill{
+        display:none;
+    }
+}
+
+/*end contact*/
+
+
+#bioTitle{
+    text-align: center;
+}
+.link:hover{
+    color:#ec407a;
+}
+#showcase{
+    margin-left: 6%;
+    margin-top: -2%;
+}
+
+
+
+
+/*overlay*/
+/*.neatLarge {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.neatSmall {
+  position: relative;
+  width: 100%;
+  height: 300px;
+ 
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ec407a;
+  overflow: hidden;
+  width:98.5%;
+  height:0;
+  transition: .7s ease;
+  border: white 5px solid;
+  border-radius: 5px;
+  
+}
+.overlaySmall {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ec407a;
+  overflow: hidden;
+  width: 97.6%;
+  height:0;
+  transition: .7s ease;
+  border: white 5px solid;
+  border-radius: 5px;
+}
+
+.neatLarge:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.neatSmall:hover .overlaySmall {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+/*Light Box*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    /*top: 15px;*/
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+
+}
+
+/*flip animation*/
+
+.f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+  margin-top: 0%;
+}
+.f1_container {
+  perspective: 1000;
+}
+.f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+.f1_container:hover .f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #e91e63;
+  border-radius: 5px;
+  /*margin-top: -2%;*/
+}
+.pls{
+    width: 90%;
+    margin-top: -3.5%;
+    
+}
+.pls2{
+    width: 100%;
+    height: 105%;
+}
