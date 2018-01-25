@@ -539,6 +539,9 @@ small{
 #logo{
     padding-left: 0%;
 }
+.btnBoxSkill{
+    display:none;
+}
 
 }
 
@@ -574,6 +577,9 @@ small{
     }
     #webby{
         margin:0%;
+    }
+    .btnBoxSkill{
+        display:none;
     }
 
 }
