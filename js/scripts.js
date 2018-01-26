@@ -187,14 +187,14 @@ $(document).ready(function() {
  
  var graph = new HorizontalBarGraph('#my-graph', [
    {label: 'Drinking Coffee',  inner_label: 'Expert',   value: 100,  color: '#e17a69' },
-   {label: 'Html', inner_label: 'Pro', value: 90, color: '#6ea6df' },
-   {label: 'Css',  inner_label: 'Pro',   value: 90,  color: '#84c26d' },
-   {label: 'Word Press',  inner_label: 'Pro',   value: 90,  color: '#e17a69' },
-   {label: 'Photoshop', inner_label: 'Pro', value: 90, color: '#6ea6df' },
-   {label: 'Illustrator',  inner_label: 'Pro',   value: 90,  color: '#84c26d' },
-   {label: 'Jquery',  inner_label: 'Pretty Good',   value: 80,  color: '#e17a69' },
-   {label: 'Javascript',  inner_label: 'Pretty Good',   value: 80,  color: '#6ea6df' },
-   {label: 'Php',  inner_label: 'Pretty Good',   value: 80,  color: '#84c26d' }
+   {label: 'Html', inner_label: 'Professional', value: 90, color: '#6ea6df' },
+   {label: 'Css',  inner_label: 'Professional',   value: 90,  color: '#84c26d' },
+   {label: 'Word Press',  inner_label: 'Professional',   value: 90,  color: '#e17a69' },
+   {label: 'Photoshop', inner_label: 'Professional', value: 90, color: '#6ea6df' },
+   {label: 'Php',  inner_label: 'Respectable',   value: 80,  color: '#84c26d' },
+   {label: 'Jquery',  inner_label: 'Respectable',   value: 80,  color: '#e17a69' },
+   {label: 'Javascript',  inner_label: 'Respectable',   value: 80,  color: '#6ea6df' }
+   
   
    
  ]);
